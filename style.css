@@ -1,0 +1,16 @@
+#scroller {
+width: 800px;
+height: 500px;
+background-image: url(sprites/liquidWater.png);
+background-repeat: repeat-x;
+background-position: center-bottom;
+background-color: #B5FFFB;
+position: absolute;
+top: 0;
+z-index: 10;
+}
+
+#canvas {
+	position: absolute;
+	z-index: 20;
+}
